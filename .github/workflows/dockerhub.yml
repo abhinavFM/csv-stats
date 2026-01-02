@@ -28,5 +28,5 @@ jobs:
           context: .
           push: true
           tags: |
-            <abhinavfm>/<csv-stats>:latest
-            <abhinavfm>/<csv-stats>:${{ github.sha }}
+            abhinavfm/csv-stats:latest
+            abhinavfm/csv-stats:${{ github.sha }}
